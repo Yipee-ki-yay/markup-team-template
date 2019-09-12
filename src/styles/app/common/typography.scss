@@ -1,0 +1,54 @@
+.capitalize { text-transform: capitalize; }
+.uppercase { text-transform: uppercase; }
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+.bold {font-weight: 700;}
+.semi-bold {font-weight: 600; }
+.light {font-weight: 300; }
+.ultra-light {font-weight: 200;}
+
+// b,strong { font-weight: bold; }
+// i {font-style: italic;}
+
+.title {
+	font-weight: 700;
+	font-family: $titleFont;
+	& + * {	margin-top: 15px;	}
+}
+.sub-title {
+	margin-top: 10px;
+	font-size: 0.6em;
+}
+.page-title {	
+  font-size: $titleFontSize; 
+
+  @media (min-width: $xlLayout) {
+    font-size: $titleFontSizeLaptop;
+  }
+}
+
+.section-title { 
+  font-size: $sectionTitleFontSize; 
+
+  @media (min-width: $xlLayout) {
+    font-size: $sectionTitleFontSizeLaptop;
+  }
+
+  @media (min-width: 1279px) {
+    font-size: $sectionTitleFontSizeDesktop;
+  }
+}
+
+.sectionBlock-title {	font-size: $sectionBlockTitleFontSize; }
+.article-title { font-size: $sectionTitleFontSize; }
+.title-description { font-size: $descriptionTitleFontSize; }
+
+.list-title {
+	& + ul,
+	& + ol {margin: 10px 0 0 0;}
+
+	&.label {
+		& + ul,
+		& + ol {margin: 0 0 0 10px;}
+	}
+}

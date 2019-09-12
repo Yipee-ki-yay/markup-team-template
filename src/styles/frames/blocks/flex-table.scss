@@ -41,7 +41,7 @@
 	}
 
 
-	@media (min-width: 991px) {
+	@media (min-width: $xlLayout) {
 		.tableRow {
 			flex-wrap: nowrap;
 

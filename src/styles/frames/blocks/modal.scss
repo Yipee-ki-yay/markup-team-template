@@ -103,7 +103,7 @@
   }
 
 
-  @media (min-width: 991px) {
+  @media (min-width: $xlLayout) {
   	.modalHeader {
   		.modal-title {
 				font-size: $big;

@@ -7,14 +7,8 @@ var cite = null;
 $(document).ready(function() {
 	// =================Include Modules==============================
   /*@@include('frames/PopupModule.js')*/
-  /*@@include('frames/ValidationModule.js')*/
-	/*@@include('frames/AnimateBorderModule.js')*/
-  /*@@include('frames/custom_Input_Type_number.js')*/
   /*@@include('frames/AccordionModule.js')*/
-  /*@@include('frames/ToggleContentModule.js')*/
   /*@@include('frames/SwitchTabsModule.js')*/
-  /*@@include('frames/TextLimitModule.js')*/
-  /*@@include('frames/StickyBlockModule.js')*/
 	// =============================================================
 
 	cite = (function(window, document, $, undefined) {

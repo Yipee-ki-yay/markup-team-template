@@ -340,7 +340,7 @@ body div.contentWrapper .no-margin {
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: $xlLayout) {
   .mcol-md-show {display: block !important;}
   .mcol-md-hide {display: none !important;}
 
@@ -515,7 +515,7 @@ body div.contentWrapper .no-margin {
 }
 
 
-@media (min-width: 991px) {
+@media (min-width: $xlLayout) {
 
   .mcontainer {
     padding: 0 $containerPaddingDesktop;

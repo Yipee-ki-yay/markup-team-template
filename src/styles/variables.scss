@@ -96,8 +96,11 @@ $articleMarginTablet: 10px;
 $articleMarginLaptop: 16px;
 $articleMarginDesktop: 16px;
 
-// ---Optional (collapse menu)-----
-$collapseBefore: 991px;  // page width when menu should collapse
+$smLayout: 576px;
+$mdLayout: 768px;
+$xlLayout: 991px; // page width when menu should collapse
+$xxlLayout: 1200px;
+$xxxlLayout: 1600px;
 
 // ---Optional (form-grid)-----
 $formTitleFontSize: 1.25rem;

@@ -57,7 +57,7 @@
 
 	/* ======Media Queries===== */
 
-	@media (min-width: $collapseBefore) {
+	@media (min-width: $xlLayout) {
 		.navMenuWrapper {
 			position: static;
 			width: auto;

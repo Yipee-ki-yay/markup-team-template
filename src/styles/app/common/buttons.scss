@@ -1,0 +1,25 @@
+.standardButton {
+	padding: 1px 15px 0; 
+	font-size: $normal;	
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid;
+	line-height: $standardButtonHeight - 2px;
+	text-decoration: none;
+	
+	&:hover {text-decoration: none;}
+}
+
+.standardButton.primary {
+	// line-height: 38px;
+	background-color: transparent;
+	color: $mainFontColor;
+	font-family: $titleFont;
+	border-color: $primaryColor;
+
+	&:hover {
+		background-color: $primaryColor;
+		color: $secondaryFontColor;
+	}
+}

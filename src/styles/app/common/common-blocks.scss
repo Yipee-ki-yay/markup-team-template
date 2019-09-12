@@ -1,29 +1,3 @@
-.standardButton {
-	padding: 1px 15px 0; 
-	font-size: $normal;	
-	box-sizing: border-box;
-	text-align: center;
-	display: inline-block;
-	border: 1px solid;
-	line-height: $standardButtonHeight - 2px;
-	text-decoration: none;
-	
-	&:hover {text-decoration: none;}
-}
-
-.standardButton.primary {
-	// line-height: 38px;
-	background-color: transparent;
-	color: $mainFontColor;
-	font-family: $titleFont;
-	border-color: $primaryColor;
-
-	&:hover {
-		background-color: $primaryColor;
-		color: $secondaryFontColor;
-	}
-}
-
 ul.breadcrumbs {
 	margin-bottom: 10px;
 	white-space: nowrap;
@@ -116,7 +90,12 @@ ul.breadcrumbs {
 			bottom: -20px;
 
 		}
-		
+	}
+
+	@media (min-width: $xlLayout) {
+		& > .navigateIcon {
+			right: 25px;
+		}
 	}
 }
 
@@ -164,6 +143,11 @@ ul.breadcrumbs {
 	}
 	&:after {
 		left: calc(100% - 8px);
+	}
+
+	@media (min-width: $xlLayout) {
+		&:before { right: calc(100% - 15px); }
+		&:after {	left: calc(100% - 15px); }
 	}
 
 }
@@ -250,6 +234,10 @@ ul.breadcrumbs {
 		height: 100%;
 		text-align: center;
 	}
+
+	@media (min-width: 767px) {
+		padding-bottom: 45%;
+	}
 }
 
 // --------------------------
@@ -311,30 +299,4 @@ ul.breadcrumbs {
 			text-align: right;
 		}
 	}
-}
-
-
-// ======Media=========
-@media (min-width: 767px) {
-	.main-video-wrapper {
-		padding-bottom: 45%;
-	}
-
-	// ---------
-
-}
-
-@media (min-width: 991px) {
-	.scrollTopContainer {
-	
-		& > .navigateIcon {
-			right: 25px;
-		}
-	}
-
-	.backgroundMock {
-		&:before { right: calc(100% - 15px); }
-		&:after {	left: calc(100% - 15px); }
-	}
-
 }
