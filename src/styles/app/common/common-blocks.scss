@@ -8,7 +8,7 @@ ul.breadcrumbs {
 		display: inline-block;
 
 		a {
-			color: $mainFontColor;
+			color: $fcolor-1;
 			font-size: 14px;
 			// line-height: 50px;
 
@@ -27,7 +27,7 @@ ul.breadcrumbs {
 			content: '';
 			width: 6px;
 			height: 6px;
-			background-color: $primaryColor;
+			background-color: $mainColor;
 			display: inline-block;
 			margin-right: 8px;
 			border-radius: 50%;
@@ -83,7 +83,7 @@ ul.breadcrumbs {
 			opacity: 1;
 		}
 
-		&:before {bottom: 1px; color: $primaryColor;} 
+		&:before {bottom: 1px; color: $mainColor;} 
 
 		&.js_fixToFooter {
 			position: absolute;
@@ -245,7 +245,7 @@ ul.breadcrumbs {
 	// margin-top: 10px;
 
 	.icomoon {
-		color: $subDescriptionColor;
+		color: $fcolor-1;
 	}
 
 	* + .link-with-icon {margin-top: 10px;}
@@ -264,7 +264,7 @@ ul.breadcrumbs {
 		&.sub-description {
 			font-size: 12px;
 			line-height: 20px;
-			color: $subDescriptionColor;
+			color: $fcolor-1;
 		}
 		// text-align: center;
 		& + p {

@@ -1,25 +1,18 @@
 // ======Main Options=======
 /* -----Color------- */
-$primaryColor: #E32013;  
-$secondaryColor: #FFD04A; 
-$tertiaryColor: #E8E8E8;	
-$fourthColor: #252829; 
-
-$black: #000;
-$white: #fff;
-
+$mainColor: #81a1c8;  
+$color-2: #006fb7; 
+$color-3: #3d3c3f;	
 
 /* -----Fonts-----*/
 $pageFontSize: 14px;
-$mainFont: "Arial";
-$secondaryFont: "Arial";
+$font-1: 'Roboto', sans-serif;
+$font-2: 'Roboto Condensed', sans-serif;
 
-$mainFontColor: #1B1E1F;
-$secondaryFontColor: $white;
-$descriptionTextColor: $mainFontColor;
-$subDescriptionColor: rgba(13, 13, 15, 0.5);
+$fcolor-1: $color-3;
+$fcolor-2: #fff;
 
-$titleFont: $mainFont;
+$titleFont: $font-1;
 $titleFontSize: 2rem;
 $titleFontSizeLaptop: 2rem;
 $sectionTitleFontSize: 1.5rem;
@@ -31,23 +24,23 @@ $descriptionTitleFontSize: 24px;
 
 /* ======Components Options======= */
 /* ------Color---------- */
-$mainBackgroundColor: $tertiaryColor;
+$mainBackgroundColor: $color-3;
 
-$headerColor: $primaryColor;
-$headerFontColor: $white;
+$headerColor: $mainColor;
+$headerFontColor: #fff;
 
-$headerBottomColor: $white;
+$headerBottomColor: #fff;
 $headerBottomFontColor: #161618;
 
-$footerColor: $fourthColor;
-$footerFontColor: $secondaryFontColor;
+$footerColor: $color-3;
+$footerFontColor: $fcolor-2;
 
-$mobileMenuColor: $primaryColor;
+$mobileMenuColor: $mainColor;
 
-$formElementsBorderColor: $secondaryColor;
-$formElementsFocusBorderColor: $primaryColor;
+$formElementsBorderColor: $color-2;
+$formElementsFocusBorderColor: $mainColor;
 
-$linksColor: $fourthColor;
+$linksColor: #fff;
 
 $darkOverlayColor: rgb(0,0,0);
 

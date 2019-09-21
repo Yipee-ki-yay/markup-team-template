@@ -1,10 +1,10 @@
 body {
 	position: relative;
 
-	color: $mainFontColor;
+	color: $fcolor-1;
 
 	font-size: $pageFontSize;
-	font-family: $mainFont;
+	font-family: $font-1;
 }
 
 body.js_pageOverlayOpen {
