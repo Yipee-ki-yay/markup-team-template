@@ -1,0 +1,11 @@
+.first-section {
+  margin-top: 36px;
+}
+
+.section {
+  margin-top: 30px;
+
+  @media (min-width: $xlLayout) {
+    margin-top: 45px;
+  }
+}

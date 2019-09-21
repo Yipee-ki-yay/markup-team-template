@@ -1,6 +1,8 @@
 // @import "optional/customReset";
 @import "optional/normalize";
 @import "optional/bottomFooter"; //set page height to 100% and moves mainFooter to bottom.
+// @import "optional/bootstrap/bootstrap.scss";
+@import "optional/bootstrap/bootstrap-grid.scss";
 
 /* ----Variables--- */
 @import "variables";
@@ -15,12 +17,15 @@
 @import "app/common/common-blocks";
 @import "app/common/common-content";
 @import "app/common/typography";
-@import "app/common/buttons";
+@import "app/common/layout";
 
 
 //------Partials-----
 @import "app/partials/header";
 @import "app/partials/footer";
+
+@import "app/partials/blocks/buttons";
+// @import "app/partials/blocks/tables";
 
 //-----App-----
 @import "app/homePage";
