@@ -5,4 +5,4 @@ Get Started:
 2) ```npm run dev```
 
 Build production version:
-```npm run build```
+1) ```npm run build```
