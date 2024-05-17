@@ -1,4 +1,4 @@
-# HTML/CSS/JS builder based on gulp/sass
+# Markup HTML/CSS/JS builder based on gulp/sass
 
 Get Started:
 1) ```npm i```
