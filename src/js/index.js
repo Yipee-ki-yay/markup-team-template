@@ -2,7 +2,7 @@ var glob = {};
 
 @@include('frames/globalFunctions.js')
 
-var cite = null;
+var site = null;
 
 $(document).ready(function() {
 	// =================Include Modules==============================
@@ -11,7 +11,7 @@ $(document).ready(function() {
   /*@@include('frames/SwitchTabsModule.js')*/
 	// =============================================================
 
-	cite = (function(window, document, $, undefined) {
+	site = (function(window, document, $, undefined) {
 
 		const $win = $(window),
      			$dom = $(document),
