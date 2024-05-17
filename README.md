@@ -1,5 +1,8 @@
-# myFrontEnvironment
-HTML/CSS/JS builder based on gulp/sass  
+# HTML/CSS/JS builder based on gulp/sass
 
 Get Started:
-1) 
+```npm i```
+```npm run dev```
+
+Build production version:
+```npm run build```

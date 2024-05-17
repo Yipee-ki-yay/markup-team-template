@@ -1,14 +1,16 @@
 {
   "name": "markup-team-template",
-  "version": "1.0.1",
-  "author": "A. M.",
+  "version": "1.0.2",
+  "author": "Oleksandr Morozov",
   "homepage": "https://github.com/Yipee-ki-yay/markup-team-template",
   "license": "MIT",
   "description": "html/css/js builder based on gulp/sass",
   "main": "gulpfile.js",
   "scripts": {
     "test": "envTest",
-    "gulp": "./node_modules/.bin/gulp"
+    "gulp": "./node_modules/.bin/gulp",
+    "dev": "gulp dev",
+    "build": "gulp build:prod"
   },
   "repository": {
     "type": "git",
@@ -38,7 +40,7 @@
     "gulp-postcss": "^7.0.0",
     "gulp-purgecss": "^1.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "2.6.0",
     "gulp-uglify": "^3.0.0",
@@ -46,6 +48,7 @@
     "imagemin-pngquant": "^5.0.1",
     "postcss-assets": "^4.1.0",
     "postcss-flexbugs-fixes": "^3.3.0",
-    "postcss-focus": "^3.0.0"
+    "postcss-focus": "^3.0.0",
+    "sass": "^1.77.1"
   }
 }
